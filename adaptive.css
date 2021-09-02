@@ -1,0 +1,506 @@
+@media only screen and (max-width: 1280px) {
+  .img_blog {
+    width: 100%;
+    height: 100%;
+  }
+  .square1 {
+    position: absolute;
+    left: 70%;
+    top: 23%;
+    width: 40%;
+    height: 41%;
+    border: 11px solid #e8c300;
+  }
+  .square2 {
+    position: absolute;
+    left: -23%;
+    top: 23%;
+    width: 40%;
+    height: 41%;
+    border: 11px solid #e8c300;
+  }
+  .about_content {
+    margin-left: 0;
+    margin-top: 90px;
+  }
+  .booking_form {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  .booking_form-wrap {
+    max-width: 850px;
+  }
+  .btn-form {
+    width: 530px;
+  }
+  .booking_form-wrap {
+    justify-content: center;
+  }
+  .booking_form-field {
+    margin: 0 5px 10px 0;
+  }
+  .menu_it2 {
+    margin: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .burger_wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 0 0;
+  }
+  .header_logo-img {
+    width: 100px;
+  }
+  .header_burger {
+    display: block;
+    position: fixed;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 4;
+  }
+  .header_burger:before,
+  .header_burger:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    transition: 0.3s linear;
+  }
+  .header_burger span {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    background-color: #fff;
+    transition: 0.3s linear;
+  }
+  .header_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    padding: 100px 100px;
+    width: 100%;
+    height: 620px;
+    top: -620px;
+    left: 0;
+    background: rgb(8 8 8 / 89%);
+    z-index: 3;
+  }
+  .header_link {
+    font-size: 30px;
+  }
+  .header_link:hover:after {
+    display: none;
+  }
+  .header_burger.active span {
+    transform: scale(0);
+  }
+  .header_link:hover {
+    color: aqua;
+  }
+  .header_menu a {
+    margin: 0;
+  }
+
+  .header_burger:before {
+    top: 0;
+  }
+  .header_burger:after {
+    bottom: 0;
+  }
+  .header_burger.active::before {
+    transform: rotate(45deg);
+    top: 14px;
+  }
+  .header_burger.active::after {
+    transform: rotate(-45deg);
+    top: 14px;
+  }
+  .header_logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .header_menu.active {
+    top: 0;
+    transition: all 0.5s;
+  }
+  .header_title-wrap {
+    margin-top: 90px;
+  }
+  .header_social {
+    right: 0;
+  }
+  .booking_img {
+    margin-right: 30px;
+  }
+  .private-events_item {
+    flex-direction: column;
+  }
+  .private-events_img2 {
+    max-width: 475px;
+    margin: 0 auto;
+  }
+  .private-events_img {
+    max-width: 475px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .header_title {
+    font-size: 65px;
+  }
+  .header_title::after {
+    top: 60%;
+  }
+  .header_menu {
+    height: 587px;
+  }
+  .about_content {
+    margin-top: 50px;
+  }
+  .about_img {
+    margin: 50px;
+  }
+  .about_subtitle {
+    margin: 15px 0;
+  }
+  .aboyt {
+    margin-bottom: 50px;
+  }
+  .booking_form {
+    margin: 0 30px 0 10px;
+  }
+  .booking_img {
+    margin-right: 30px;
+  }
+  .specialties {
+    margin-bottom: 0;
+  }
+  .menu_it2 {
+    margin: 0 50px;
+  }
+  .our_time-img {
+    margin-left: 65px;
+  }
+  .our_time_subtitle {
+    font-size: 15px;
+  }
+  .our_time-content {
+    margin-left: 10px;
+  }
+  .booking_img {
+    display: none;
+  }
+  .booking_container {
+    justify-content: center;
+  }
+  .booking_form-wrap {
+    max-width: 540px;
+  }
+  .specialties_container {
+    margin-left: 50px;
+  }
+  .specialties_subtitle {
+    font-size: 15px;
+  }
+  .specialties_content {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header_title {
+    font-size: 45px;
+  }
+  .header_menu.active {
+    top: -21px;
+  }
+  .header_title::after {
+    left: 45%;
+  }
+  .header_social {
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0 120px 0;
+  }
+  .down_btn {
+    top: 352px;
+    left: 45%;
+  }
+  .header_btn {
+    margin-left: 0;
+  }
+  .header_btn-link {
+    margin-right: 5px;
+  }
+  .about_blok {
+    display: block;
+  }
+  .about_img {
+    max-width: 475px;
+    margin: 0 auto;
+  }
+  .about_content {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .our_time-container {
+    flex-direction: column;
+  }
+  .our_time-img {
+    max-width: 475px;
+    margin: 0 auto;
+  }
+  .our_time-content {
+    margin: 0 auto;
+    order: -1;
+    margin-bottom: 50px;
+  }
+  .square2 {
+    left: -13%;
+  }
+  .specialties_container {
+    flex-direction: column;
+    margin-left: 0;
+    padding-bottom: 50px;
+  }
+  .specialties_img {
+    max-width: 475px;
+    margin: 0 auto;
+  }
+  .specialties_content {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    order: -1;
+  }
+  .menu_title:after {
+    left: 45%;
+  }
+  .galerie_wrap {
+    flex-wrap: wrap;
+  }
+  .galerie_item {
+    width: 50%;
+    margin: -2px;
+  }
+  .btn_wrap {
+    flex-direction: column;
+  }
+  .contact_adres {
+    order: 1;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .contect_adres-item {
+    margin-left: 0;
+  }
+  .contact_btn {
+    width: 100%;
+  }
+  .contact_name {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .header_title::after {
+    left: 43%;
+  }
+  .about_img {
+    max-width: 325px;
+  }
+  .our_time-img {
+    max-width: 325px;
+  }
+  .specialties_img {
+    max-width: 325px;
+  }
+  .private-events_img {
+    max-width: 325px;
+  }
+  .private-events_img2 {
+    max-width: 325px;
+  }
+  .booking {
+    margin: 40px 0 40px 0;
+  }
+  .bookform {
+    width: 175px;
+  }
+  .booking_form-wrap {
+    max-width: 365px;
+  }
+  .booking_footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .booking_footer-item {
+    margin-bottom: 5px;
+  }
+  .booking_form-title:after {
+    left: 41%;
+  }
+  .specialties_tetile {
+    font-size: 30px;
+  }
+  .menu_title:after {
+    left: 43%;
+  }
+  .private_contact {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .private_item {
+    margin-bottom: 5px;
+  }
+  .vertical_text {
+    left: 81%;
+  }
+  .submenu_name:after {
+    left: 60px;
+  }
+  .contact {
+    margin: 50px 0;
+  }
+  .contact_adres {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .contact_name {
+    margin-bottom: 15px;
+  }
+  .contform {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact_form-field {
+    flex-direction: column;
+  }
+  .textarea {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .private_contact-nomber {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .header_btn-link {
+    padding: 15px 20px;
+  }
+  .btn-link2 {
+    padding: 15px 40px;
+  }
+  .header_title::after {
+    left: 41%;
+  }
+  .about_img {
+    max-width: 270px;
+  }
+  .our_time-img {
+    max-width: 270px;
+  }
+  .specialties_img {
+    max-width: 270px;
+  }
+  .private-events_img {
+    max-width: 270px;
+  }
+  .private-events_img2 {
+    max-width: 270px;
+  }
+  .private_item {
+    flex-direction: column;
+  }
+  .private_contact-text {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .vertical_text {
+    left: 77%;
+    font-size: 25px;
+  }
+  .vertical_text2 {
+    font-size: 25px;
+  }
+  .galerie_item {
+    width: 100%;
+  }
+  .booking_form {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .submenu_name:after {
+    left: 45px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header_title {
+    font-size: 35px;
+  }
+  .header_menu.active {
+    top: -32px;
+  }
+  .header_btn-link {
+    padding: 15px 16px;
+  }
+  .btn-link2 {
+    padding: 15px 30px;
+  }
+  .down_btn {
+    top: 335px;
+    left: 39%;
+  }
+  .about_img {
+    max-width: 245px;
+  }
+  .about_title:after {
+    left: 41%;
+  }
+  .our_time-img {
+    max-width: 245px;
+  }
+  .bookform {
+    width: 140px;
+    height: 45px;
+  }
+  .btn-form {
+    width: 292px;
+  }
+  .specialties_img {
+    max-width: 245px;
+  }
+  .menu_it2 {
+    margin: 0px 15px;
+  }
+  .private-events_img2 {
+    max-width: 245px;
+  }
+  .private-events_img {
+    max-width: 245px;
+  }
+  .vertical_text {
+    left: 74%;
+  }
+  .private-events_title {
+    padding: 25px 0;
+  }
+}
